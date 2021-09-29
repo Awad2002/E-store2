@@ -4,6 +4,14 @@
 body {
     font-family: 'Tajawal', sans-serif;
     direction: rtl;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #2d2a2a;
+    font-size: 14px;
 }
 
 .navbar button:active {
@@ -136,8 +144,79 @@ body {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
+.product-item.shadow-sm:hover {
+    box-shadow: 0 .24rem .85rem rgba(0,0,0,.17)!important;
+}
+.product-item p {
+    color: #2d2a2a !important;
+}
 /* End Categories */
+
+
+/*************************************
+*************************************
+Start Categorie Page 
+/************************************************/
+/************************************************/
+/* Start Nav */
+#catpage .nav .nav-item .nav-link {
+    color: #5c5858;
+    font-size: 14px;
+    transition: ease-out .1s;
+}
+#catpage .nav .nav-item .nav-link:hover {
+    color: var(--main-color);
+}
+#catpage .nav .nav-item .nav-link.active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+#catpage .title h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+/* End Nav */
+
+
+/*************************************
+*************************************
+End Categorie Page 
+/************************************************/
+/************************************************/
+
+
+/*************************************
+*************************************
+Start Product Page 
+/************************************************/
+/************************************************/
+#productpage .product .product-route a {
+    text-decoration: none; 
+    opacity: 0.54;
+    transition: ease-in 0.1s;
+}
+#productpage .product .product-route a:hover {
+    text-decoration: none; 
+    opacity: 1;
+}
+#productpage .product .product-route a:last-child {
+    text-decoration: none; 
+    opacity: 1;
+}
+/*************************************
+*************************************
+End Product Page 
+/************************************************/
+/************************************************/
+
 /* Start Classes */
 .my-primary-bg {
-    background-color: #D4060E;
+    background-color: var(--main-color) !important;
+}
+.my-primary-color {
+    color: var(--main-color) !important;
+}
+
+a {
+    text-decoration: none !important;
 }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> متجر جرير </title>
+
+    <!-- <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/> -->
+    <link rel="icon" href="https://www.jarir.com/skin/frontend/jarir/default/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body id="catpage">
+
+    <div class="full-menu">
+        <button class="btn text-white rounded-0 close-btn"> <i class="fas fa-times"></i> </button>
+    </div>
+
+    <!---- Start TopBar ---->
+    <div class="topbar p-2">
+        <div class="container">
+            <select name="currency" id="currency">
+                <option value="kwd"> الدينار الكويتي </option>
+            </select>
+            <a href="#" class="me-5 btn p-0"> English </a>
+        </div>
+    </div>
+    <!---- End TopBar ---->
+    
+    <!---- Start NavBar ---->
+    <div class="navbar pt-3 pb-3 bg-white shadow-sm sticky-top">
+        <div class="container text-center">
+            <ul class="nav p-0">
+                <li class="nav-item"> <button class="btn fs-5 menu-btn"> <i class="fas fa-bars"></i> </button> </li>
+                <li class="nav-item dropdown"> 
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> تسوق <i class="fas fa-angle-down me-1" style="font-size: 12px;"></i> </a> 
+                    <ul class="dropdown-menu text-end">
+                        <li><a class="dropdown-item" href="#"> القسم الأول </a></li>
+                        <li><a class="dropdown-item" href="#"> القسم الثاني </a></li>
+                        <li><a class="dropdown-item" href="#"> القسم الثالث </a></li>
+                        <li><a class="dropdown-item" href="#"> القسم الرابع </a></li>
+                      </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html"> اتصل بنا </a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"> من نحن </a></li>
+            </ul>
+            <a href="index.html"> <img src="img/logo.svg" class="ms-auto me-auto" height="30px"> </a>
+            <ul class="nav p-0">
+                <li class="nav-item"><a class="nav-link" href="branches.html"> الفروع </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> الدخول / التسجيل </a></li>
+                <li class="nav-item"><button class="search-btn nav-link btn" href="#"> <i class="fas fa-search"></i> </button></li>
+                <li class="nav-item"><button class="btn nav-link position-relative" href="#">
+                        <i class="fas fa fa-shopping-cart fa-lg"></i>
+                     <span class="cart-basket d-flex align-items-center justify-content-center">
+                        2
+                      </span>
+                    </button></li>
+                <form action="#" class="search position-absolute" style="top: 56px; width: 360px; left: 60px;">
+                    <input type="text" placeholder="أدخل اسم المنتج ..." class="form-control bg-white shadow-sm p-3">
+                    <button class="position-absolute btn p-0" style="top: 17px; left: 15px; color: #D4060E;"> <i class="fas fa-search"></i> </button>
+                </form>
+            </ul>
+        </div>
+    </div>
+    <!---- End NavBar ---->
+
+    <!-- Start Contact Us -->
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <div class="text-center">
+                <h1 class="mt-4"> إتصل بنا </h1>
+                <p class="mt-2"> <a href="#"> الرئيسية </a> / <a href="#"> اتصل بنا </a> </p>
+                <form action="#" class="mt-4 text-end">
+                    <label for="name">الاسم</label>
+                    <input type="text" class="form-control mt-1 pt-2 pb-2 rounded-1 mb-3">
+                    <label for="email"> البريد الإلكتروني </label>
+                    <input type="email" class="form-control mt-1 pt-2 pb-2 rounded-1 mb-3">
+                    <label for="subject"> عنوان الرسالة </label>
+                    <input type="text" class="form-control mt-1 pt-2 pb-2 rounded-1 mb-3">
+                    <label for="message"> موضوع الرسالة </label>
+                    <textarea type="text" class="form-control mt-1 pt-2 pb-2 rounded-1 mb-3" style="min-height: 110px;"></textarea>
+                    <input type="submit" class="btn my-primary-bg text-white pt-3 pb-3" value="                 إرسال                 ">
+                </form> 
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+    <!-- End Contact Us -->
+
+    <footer class="mt-5 pt-5 pb-5 bg-dark text-center">
+        <img src="img/logo.svg" style="height: 40px;">
+        <p class="text-white mt-4 mb-4"> هذا النص هو مثال لنص عربي يمكن أن يستبدل </p>
+        <div class="mb-5">
+            <a href="#" class="ms-2"><img src="img/google-w.png" style="height: 40px;"></a>
+            <a href="#"><img src="img/app-w.png" style="height: 40px;"></a>
+        </div>
+        <img src="img/paymen-1.png" style="height: 28px;">
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
