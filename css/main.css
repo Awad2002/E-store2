@@ -302,3 +302,7 @@ a {
         display: none;
     }
 }
+
+.topbar {
+    display: none;
+}
